@@ -22,6 +22,11 @@
     "android": {
       "package": "com.zepqwik.app",
       "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAwpVmN1vUwh3siv6RrKzGeSWRq2tdQMsg"
+        }
+      },
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -57,8 +62,8 @@
       [
         "react-native-maps",
         {
-          "androidGoogleMapsApiKey": "YOUR_ANDROID_MAPS_API_KEY",
-          "iosGoogleMapsApiKey": "YOUR_IOS_MAPS_API_KEY"
+          "androidGoogleMapsApiKey": "AIzaSyAwpVmN1vUwh3siv6RrKzGeSWRq2tdQMsg",
+          "iosGoogleMapsApiKey": "AIzaSyAwpVmN1vUwh3siv6RrKzGeSWRq2tdQMsg"
         }
       ],
       "@react-native-google-signin/google-signin"
